@@ -4,7 +4,7 @@
 
 int main (int argc, char *argv[]) {
 
-	int i = 0;
+    int i = 0;
     int j = 0;
     int x = 0;   //Хранит длину строки. Var to let know length of a string
     int y = 0;   //Считаем число перестановок. It counts number.
