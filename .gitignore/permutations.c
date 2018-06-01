@@ -47,7 +47,7 @@ int main (int argc, char *argv[]) {
         printf("%s\n", argv[1]);
 
         i=x-2;
-        /*Here we search next. Ищем новую перестановку*/
+        /*Here we search next permutation. Ищем новую перестановку*/
         while(argv[1][i] > argv[1][i+1] ) i--;
         j=x-1;
         while(argv[1][j] < argv[1][i] ) j--;
