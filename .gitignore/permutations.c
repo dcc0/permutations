@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main (int argc, char *argv[]) {
 
-	int i = 0;
+    int i = 0;
     int j = 0;
     int fact = 1;//Факториал. Factorial
     int x = 0;   //Хранит длину строки. Var to let know length of a string
