@@ -37,7 +37,7 @@ int main (int argc, char *argv[]) {
 		  fact = y*fact;
 }
 
-/*Main part: here we permutate. Порождаем перестановки
+/*Main part: here we permute. Порождаем перестановки
  до тех пор пока не дойдем до факториал - переменная fact*/
 
     y=0;
