@@ -20,7 +20,7 @@ int main (int argc, char *argv[]) {
 
     for (x; argv[1][x]; x++);
 
-/*Buble sort the array. Упорядочим алфавит*/
+/*Buble sort an array. Упорядочим алфавит*/
 
     for(i=0; i < x; i++) {
         for(j = x-1; j > i; j-- ) {
