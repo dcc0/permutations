@@ -39,7 +39,7 @@ int main (int argc, char *argv[]) {
       i = x;
       j = 0;
 	/*Перевернем переменную ch - нужна для остановки алгоритма.
-	 Reverse ch. It's needed to stop algorithm*/
+	 Reverse ch. It's needed to stop the algorithm*/
 		while( i > j ) {
          i--;
          c=ch[j];
