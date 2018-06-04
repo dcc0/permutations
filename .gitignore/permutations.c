@@ -17,7 +17,7 @@ int main (int argc, char *argv[]) {
 
     for (x; argv[1][x]; x++);
 
-/*Buble sort the array. Упорядочим алфавит*/
+/*Buble sort an array. Упорядочим алфавит*/
 
     for(i=0; i < x; i++) {
         for(j = x-1; j > i; j-- ) {
@@ -57,7 +57,7 @@ int main (int argc, char *argv[]) {
         argv[1][j]=argv[1][i];
         argv[1][i]=c;
         i++;
-        /*Tail reverse. Оборачиваем хвост*/
+        /*Tail's reverse. Оборачиваем хвост*/
         for (j = x-1; j > i; i++, j--) {
             c = argv[1][i];
             argv[1][i] = argv[1][j];
