@@ -7,8 +7,8 @@
         int k = 0;
         int i = 0;
         int j = 0;
-        int x = 0; //Хранит длину строки. Var to let know length of a string
-        int c = 0; //Для обмена. Buffer
+        int x = 0; /*Хранит длину строки. Var to let know length of a string*/
+        int c = 0; /*Для обмена. Buffer*/
 		int reverse_argv[100] = {};
 
         /*We use Bubble sort for an array. Упорядочим алфавит сортировкой Пузырьком*/
@@ -23,9 +23,9 @@
                 }
             }
         }
+	    
         /*Here we reverse an array to stop the algorithm later.
          *Перевернем массив, чтобы остановить его позже в цикле*/
-
         i = x - 1;
         while (k < x) {
             reverse_argv[k] = argv[i];
@@ -34,7 +34,6 @@
         }
 
         /*Main part: here we permute. Порождаем перестановки*/
-
         while (1) {
 
             for (j = 0; argv[j] != 0; j++) printf("%d ", argv[j]);
@@ -46,6 +45,7 @@
             }
 
             i = x - 2;
+		
             /*Here we search next. Ищем новую перестановку*/
             while (argv[i] >= argv[i + 1]) i--;
             j = x - 1;
@@ -56,6 +56,7 @@
             argv[j] = argv[i];
             argv[i] = c;
             i++;
+		
             /*Tail reverse. Оборачиваем хвост*/
             for (j = x - 1; j > i; i++, j--) {
                 c = argv[i];
@@ -94,6 +95,6 @@ int main(int argc, char * argv[]) {
     a[k] = j;
     a[k+1] = 0;
 
-		/*Permutation function. Функция перестановок.*/
-        permute(a);
+    /*Permutation function. Функция перестановок.*/
+    permute(a);
 }
