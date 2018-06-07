@@ -23,7 +23,7 @@
                 }
             }
         }
-        /*Here we reverse an array to stop the alorithm later.
+        /*Here we reverse an array to stop the algorithm later.
          *Перевернем массив, чтобы остановить его позже в цикле*/
 
         i = x - 1;
