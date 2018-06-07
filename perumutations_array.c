@@ -11,7 +11,7 @@
         int c = 0; //Для обмена. Buffer
 		int reverse_argv[100] = {};
 
-        /*Buble sort the array. Упорядочим алфавит*/
+        /*We use Bubble sort for an array. Упорядочим алфавит сортировкой Пузырьком*/
         for (x; argv[x]!=0; x++);
 
         for (i = 0; i < x; i++) {
