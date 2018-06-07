@@ -9,7 +9,7 @@
         int j = 0;
         int x = 0; /*Хранит длину строки. Var to let know length of a string*/
         int c = 0; /*Для обмена. Buffer*/
-		int reverse_argv[100] = {};
+	int reverse_argv[100] = {};
 
         /*We use Bubble sort for an array. Упорядочим алфавит сортировкой Пузырьком*/
         for (x; argv[x]!=0; x++);
