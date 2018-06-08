@@ -9,7 +9,7 @@
         int j = 0;
         int x = 0; //Хранит длину строки. Var to let know length of a string
         int c = 0; //Для обмена. Buffer
-		int reverse_argv[100] = {};
+	int reverse_argv[100] = {};
 
         /*Buble sort the array. Упорядочим алфавит*/
         for (x; argv[x]!=0; x++);
@@ -68,11 +68,10 @@
 
 int main(int argc, char * argv[]) {
 
-	int k = 0;
+    int k = 0;
     int i = 0;
     int j = 0;
-
-	int a[100] = {};
+    int a[100] = {};
 
     /*Проверим число аргументов. Here we check a number
      * of arguments*/
