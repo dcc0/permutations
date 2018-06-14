@@ -23,7 +23,7 @@
                 }
             }
         }
-	    
+
         /*Here we reverse an array to stop the algorithm later.
          *Перевернем массив, чтобы остановить его позже в цикле*/
         i = x - 1;
@@ -45,7 +45,7 @@
             }
 
             i = x - 2;
-		
+
             /*Here we search next. Ищем новую перестановку*/
             while (argv[i] >= argv[i + 1]) i--;
             j = x - 1;
@@ -56,7 +56,7 @@
             argv[j] = argv[i];
             argv[i] = c;
             i++;
-		
+
             /*Tail reverse. Оборачиваем хвост*/
             for (j = x - 1; j > i; i++, j--) {
                 c = argv[i];
@@ -93,7 +93,6 @@ int main(int argc, char * argv[]) {
     /*Массив целых. This is an array of integers*/
     for (j = 1; j < i; j++) a[k++] = j;
     a[k] = j;
-    a[k+1] = 0;
 
     /*Permutation function. Функция перестановок.*/
     permute(a);
