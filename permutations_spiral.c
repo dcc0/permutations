@@ -33,7 +33,7 @@ int main() {
                 for (i = n - m; i >= 0; i--, j++)
                     swap[j] = str[i];
                 swap[j] = '\0';
-
+                
                 /*Собираем вместе*/
                 for (i = 0; i <= n - 1; i++)
                     str[i] = swap[i];
