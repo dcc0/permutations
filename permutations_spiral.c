@@ -4,11 +4,11 @@
 	int main () {
 
 		/*Определить: строку, факториал и n.*/
-		char str[8]="1234567";
-		int fact = 5040;
-		int n = 7;
+		char str[3]="123";
+		int fact = 6;
+		int n = 3;
 		/*Размер swap должен быть равен str*/
-		char swap[8];
+		char swap[3];
 		int a, i, j, m, mm;
 
 
