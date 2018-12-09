@@ -11,6 +11,7 @@ int main() {
     char str[3] = "123";
     int fact = 6;
     int n = 3;
+ 
     /*Размер swap должен быть равен str*/
     char swap[3];
     int a, i, j, m, mm;
