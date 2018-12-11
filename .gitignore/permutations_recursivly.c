@@ -1,6 +1,6 @@
 	/*Рекурсивный алгоритм порождения перестановок. Взят со stackoverflow. Авторы неизвестены*/ 
 	
-  #include < stdio.h >
+  #include <stdio.h>
 		/*Функция перестановок*/
 		  int permute(int * a, int i, int n) {
 		
