@@ -38,6 +38,7 @@
 		          perm[p + x] = swap;
 		
 		          break;
+				
 		        } else {
 		          p += 1 - mm % 2;
 		        }
