@@ -3,8 +3,8 @@
 		
 		  int main() {
 		
-		    int n = 8;
-		    int perm[8] = {
+		    int n = 10;
+		    int perm[10] = {
 		      0,
 		      1,
 		      2,
@@ -12,7 +12,9 @@
 		      4,
 		      5,
 		      6,
-		      7
+		      7,
+		      8,
+		      9	    
 		    };
 		    int a, j, i, x, p, mm, m;
 		    int swap;
